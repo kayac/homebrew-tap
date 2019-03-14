@@ -6,7 +6,7 @@ class Ecspresso < Formula
   head 'https://github.com/kayac/ecspresso.git'
 
   def install
-    system 'mv', 'ecspresso-v0.7.0-darwin-amd64', 'escpresso'
+    system 'mv', 'ecspresso-v0.7.0-darwin-amd64', 'ecspresso'
     bin.install 'ecspresso'
   end
 end
