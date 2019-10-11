@@ -1,12 +1,12 @@
 class Ecspresso < Formula
-  version '0.10.0'
+  version '0.11.1'
   homepage 'https://github.com/kayac/ecspresso'
-  url "https://github.com/kayac/ecspresso/releases/download/v0.10.0/ecspresso-v0.10.0-darwin-amd64.zip"
-  sha256 'a343c5df7f4b5ee74522bc2db21258e5bb898f5e1c255dccd539af2246e04929'
+  url "https://github.com/kayac/ecspresso/releases/download/v0.11.1/ecspresso-v0.11.1-darwin-amd64.zip"
+  sha256 '3e12eeb87b887f71f96250cdd37f54dfbfc558957e4afa43d627c481c150358b'
   head 'https://github.com/kayac/ecspresso.git'
 
   def install
-    system 'mv', 'ecspresso-v0.10.0-darwin-amd64', 'ecspresso'
+    system 'mv', 'ecspresso-v0.11.1-darwin-amd64', 'ecspresso'
     bin.install 'ecspresso'
   end
 end
