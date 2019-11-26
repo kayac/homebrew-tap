@@ -1,8 +1,8 @@
 class Ecspresso < Formula
-  version '0.13.0'
+  version '0.13.2'
   homepage 'https://github.com/kayac/ecspresso'
-  url "https://github.com/kayac/ecspresso/releases/download/v0.13.0/ecspresso-v0.13.0-darwin-amd64"
-  sha256 'dd7a9f124f1847985da7aec07952501910a48038671ddb614cde7e5b80f2fda1'
+  url "https://github.com/kayac/ecspresso/releases/download/v0.13.2/ecspresso-v0.13.2-darwin-amd64"
+  sha256 '803abfce3105c9fc465e571fc2203c4f4ad13235c304f1b4c6b95cdc2f88af24'
   head 'https://github.com/kayac/ecspresso.git'
 
   head do
@@ -13,7 +13,7 @@ class Ecspresso < Formula
     if build.head?
       system 'make', 'build'
     end
-    system 'mv', 'ecspresso-v0.13.0-darwin-amd64', 'ecspresso'
+    system 'mv', 'ecspresso-v0.13.2-darwin-amd64', 'ecspresso'
     bin.install 'ecspresso'
   end
 end
