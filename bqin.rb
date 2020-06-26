@@ -16,3 +16,4 @@ class Bqin < Formula
     system 'mv', 'bqin-v0.3.1-darwin-amd64', 'bqin'
     bin.install 'bqin'
   end
+end
