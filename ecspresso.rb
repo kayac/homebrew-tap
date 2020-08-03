@@ -1,8 +1,8 @@
 class Ecspresso < Formula
-  version '0.17.1'
+  version '0.17.2'
   homepage 'https://github.com/kayac/ecspresso'
-  url "https://github.com/kayac/ecspresso/releases/download/v0.17.1/ecspresso-v0.17.1-darwin-amd64"
-  sha256 'eeb2dfb0f0a0b0368638b15bb2b67e1f45b6a8b6cbc9c5f1813535147becc6cc'
+  url "https://github.com/kayac/ecspresso/releases/download/v0.17.2/ecspresso-v0.17.2-darwin-amd64"
+  sha256 '348a69aa1a12117de6e85ff2e025fcc80567c451db9481134871914ae46d0edd'
   head 'https://github.com/kayac/ecspresso.git'
 
   head do
