@@ -13,7 +13,7 @@ class Bqin < Formula
     if build.head?
       system 'make', 'build'
     end
-    system 'mv', 'bqin-v0.3.1-darwin-amd64', 'bqin'
+    system 'mv bqin-v*-darwin-amd64 bqin'
     bin.install 'bqin'
   end
 end

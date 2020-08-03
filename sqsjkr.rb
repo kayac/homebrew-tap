@@ -6,7 +6,7 @@ class Sqsjkr < Formula
   head 'https://github.com/kayac/sqsjkr.git'
 
   def install
-    system 'mv', 'sqsjkr-v0.3.2-darwin-amd64', 'sqsjkr'
+    system 'mv sqsjkr-v*-darwin-amd64 sqsjkr'
     bin.install 'sqsjkr'
   end
 end

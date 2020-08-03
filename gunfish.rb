@@ -10,7 +10,7 @@ class Gunfish < Formula
   end
 
   def install
-    system 'mv', 'gunfish-v0.4.0-darwin-amd64', 'gunfish'
+    system 'mv gunfish-v*-darwin-amd64 gunfish'
     bin.install 'gunfish'
   end
 end
