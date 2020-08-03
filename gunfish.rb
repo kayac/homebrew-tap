@@ -1,8 +1,8 @@
 class Gunfish < Formula
-  version '0.4.0'
+  version '0.4.1'
   homepage 'https://github.com/kayac/gunfish'
-  url "https://github.com/kayac/Gunfish/releases/download/v0.4.0/gunfish-v0.4.0-darwin-amd64"
-  sha256 '4390c7f1c1a196b15440548a73cd864bade671e34129ab84fcbd5554fdba2b1d'
+  url "https://github.com/kayac/Gunfish/releases/download/v0.4.1/gunfish-v0.4.1-darwin-amd64"
+  sha256 '9d57ff030bf2bbdabb0779bff410499c1d26b53a65fb5578936047a4cf4020e5'
   head 'https://github.com/kayac/gunfish.git'
 
   head do
