@@ -13,7 +13,7 @@ class Ecspresso < Formula
     if build.head?
       system 'make', 'build'
     end
-    system 'mv', 'ecspresso-v*-darwin-amd64', 'ecspresso'
+    system 'mv ecspresso-v*-darwin-amd64 ecspresso'
     bin.install 'ecspresso'
   end
 end
