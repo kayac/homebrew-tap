@@ -1,8 +1,5 @@
-name: test
-on:
-  push:
-    branches:
-      - master
+name: diff-test
+on: push
 
 jobs:
   test:
@@ -20,4 +17,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          ls *.rb | xargs -n 1 brew install --build-from-source
+          git fetch origin master
+          git diff origin/master --name-only | fgrep .rb \
+          | xargs -n 1 brew install --build-from-source
