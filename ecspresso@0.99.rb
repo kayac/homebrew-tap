@@ -1,14 +1,14 @@
 class EcspressoAT099 < Formula
-    version '0.99.5'
+    version '0.99.6'
     desc "This is a pre-release version of ecspresso. Fomula for a limited time"
     homepage 'https://github.com/kayac/ecspresso'
     if OS.mac?
-      url "https://github.com/kayac/ecspresso/releases/download/v0.99.5/ecspresso-v0.99.5-darwin-amd64.zip"
-      sha256 '0fe005d1d47f31ae8a6cfb311ec14032298ec7894d2a821a8e5a9cef618303a7'
+      url "https://github.com/kayac/ecspresso/releases/download/v0.99.6/ecspresso-v0.99.6-darwin-amd64.zip"
+      sha256 '90e67263a9ffac707eec0c5c7dc828fadf835adc7d3e8ca26761825b3fe1213a'
     end
     if OS.linux?
-      url "https://github.com/kayac/ecspresso/releases/download/v0.99.5/ecspresso-v0.99.5-linux-amd64.zip"
-      sha256 '1aee66a650d739297b020c4da39cd3a37cfa491936b104be0a5454d69909a2cc'
+      url "https://github.com/kayac/ecspresso/releases/download/v0.99.6/ecspresso-v0.99.6-linux-amd64.zip"
+      sha256 '41481e03d08314ae189836c4cc52c781fab35e6069efb21ac46503f1bd70d73b'
     end
     head 'https://github.com/kayac/ecspresso.git'
 
