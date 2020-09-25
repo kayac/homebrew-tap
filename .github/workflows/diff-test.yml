@@ -19,7 +19,8 @@ jobs:
       - name: test
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          XARGS_OPT: ${{ (runner.os == 'Linux' && '-r') || (runner.os == 'macOS' && '') }}
         run: |
           git fetch origin master
           git diff origin/master --name-only | fgrep .rb | grep -v @ \
-          | xargs -n 1 -r brew install --build-from-source
+          | xargs -n 1 $XARGS_OPT brew install --build-from-source
