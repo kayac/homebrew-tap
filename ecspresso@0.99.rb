@@ -1,5 +1,6 @@
 class EcspressoAT099 < Formula
     version '0.99.5'
+    desc "This is a pre-release version of ecspresso. Fomula for a limited time"
     homepage 'https://github.com/kayac/ecspresso'
     if OS.mac?
       url "https://github.com/kayac/ecspresso/releases/download/v0.99.5/ecspresso-v0.99.5-darwin-amd64.zip"
