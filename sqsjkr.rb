@@ -1,13 +1,13 @@
 class Sqsjkr < Formula
-  version '0.3.2'
+  version '0.4.0'
   homepage 'https://github.com/kayac/sqsjkr'
   if OS.mac?
-    url "https://github.com/kayac/sqsjkr/releases/download/v0.3.2/sqsjkr-v0.3.2-darwin-amd64.tar.gz"
-    sha256 '974b31ecb354a0e854b0a158c9f88d60229b23a375b6f553300758f120eb8681'
+    url "https://github.com/kayac/sqsjkr/releases/download/v0.4.0/sqsjkr_0.4.0_darwin_amd64.tar.gz"
+    sha256 '377fd391fd4136bb6c3a88cfdf0d20f288d79da9f66f6b2080004cbb3e920fae'
   end
   if OS.linux?
-    url "https://github.com/kayac/sqsjkr/releases/download/v0.3.2/sqsjkr-v0.3.2-linux-amd64.tar.gz"
-    sha256 'c81b8ee40a65b9e88b6ae1123ce7a07b8f4ae13eac28f248d0f787bdcd030b2b'
+    url "https://github.com/kayac/sqsjkr/releases/download/v0.4.0/sqsjkr_0.4.0_linux_amd64.tar.gz"
+    sha256 '62bd7ee86e06e269aa969697f0534ee231c750d07693bde37f08163f2b6fc7e8'
   end
   head 'https://github.com/kayac/sqsjkr.git'
 
@@ -16,7 +16,6 @@ class Sqsjkr < Formula
   end
 
   def install
-    system 'mv sqsjkr-v*-*-amd64 sqsjkr'
     bin.install 'sqsjkr'
   end
 end
