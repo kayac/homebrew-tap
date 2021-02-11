@@ -1,13 +1,13 @@
 class Sqsjfr < Formula
-  version '0.0.3'
+  version '0.1.0'
   homepage 'https://github.com/kayac/sqsjfr'
   if OS.mac?
-    url "https://github.com/kayac/sqsjfr/releases/download/v0.0.3/sqsjfr_0.0.3_darwin_amd64.tar.gz"
-    sha256 '189e54870de5664293c5cdc68bd63055d8bdbaa0a7aa947d58faebc5ebce8021'
+    url "https://github.com/kayac/sqsjfr/releases/download/v0.1.0/sqsjfr_0.1.0_darwin_amd64.tar.gz"
+    sha256 '7ec54998045350185510fdee773aae307baa7de108fddbce4948e3a8e79460e5'
   end
   if OS.linux?
-    url "https://github.com/kayac/sqsjfr/releases/download/v0.0.3/sqsjfr_0.0.3_linux_amd64.tar.gz"
-    sha256 '471691463a6b3570e95182bf734f95870cb276a291a0cad8d8b5967a3df12ef3'
+    url "https://github.com/kayac/sqsjfr/releases/download/v0.1.0/sqsjfr_0.1.0_linux_amd64.tar.gz"
+    sha256 '87ac46cabb8b1ce4a6bcd19cf6e86638ac36ea0da849b50bdecb1949b8af68e4'
   end
   head 'https://github.com/kayac/sqsjfr.git'
 
