@@ -17,7 +17,8 @@ class Ecspresso < Formula
 
   def install
     if build.head?
-      system 'make', 'build'
+      system 'make', 'cmd/ecspresso/ecspresso'
+      system 'mv', 'cmd/ecspresso/ecspresso', '.'
     end
     bin.install 'ecspresso'
   end
