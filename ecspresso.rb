@@ -1,13 +1,13 @@
 class Ecspresso < Formula
-  version '1.7.6'
+  version '1.7.7'
   homepage 'https://github.com/kayac/ecspresso'
   if OS.mac?
-    url "https://github.com/kayac/ecspresso/releases/download/v1.7.6/ecspresso_1.7.6_darwin_amd64.tar.gz"
-    sha256 '8c24973087398f3f013abc431526d84dd191c471806f6a691ac19ca255246c47'
+    url "https://github.com/kayac/ecspresso/releases/download/v1.7.7/ecspresso_1.7.7_darwin_amd64.tar.gz"
+    sha256 'feee51aa4359d05d4aa274785e0574331af9c2aeb571487a2ab1fc04db1e0e26'
   end
   if OS.linux?
-    url "https://github.com/kayac/ecspresso/releases/download/v1.7.6/ecspresso_1.7.6_linux_amd64.tar.gz"
-    sha256 'e238dd72e4b114088e101180a21f724d203cc8a3c81d092fa8ad01b55b2706fe'
+    url "https://github.com/kayac/ecspresso/releases/download/v1.7.7/ecspresso_1.7.7_linux_amd64.tar.gz"
+    sha256 'c744fdb5413f51d5067c73ce99e84fb61598f7bef9e30cbbb3c5f6b793889c51'
   end
   head 'https://github.com/kayac/ecspresso.git'
 
