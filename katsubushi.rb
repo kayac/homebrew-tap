@@ -1,13 +1,13 @@
 class Katsubushi < Formula
-  version '1.6.0'
+  version '2.0.0'
   homepage 'https://github.com/kayac/go-katsubushi'
   if OS.mac?
-    url "https://github.com/kayac/go-katsubushi/releases/download/v1.6.0/katsubushi-1.6.0-darwin-amd64.zip"
-    sha256 'e1dace2406c241af0e242981a95cc993cb282d375fe02263e6f67957b0eff5db'
+    url "https://github.com/kayac/go-katsubushi/releases/download/v2.0.0/go-katsubushi_v2.0.0_darwin_amd64.tar.gz"
+    sha256 '72edd1580ac0f5613582b773c11d4d48aaeb9ce1b451a04c07e576ecd7ae5fc7'
   end
   if OS.linux?
-    url "https://github.com/kayac/go-katsubushi/releases/download/v1.6.0/katsubushi-1.6.0-linux-amd64.zip"
-    sha256 '8eecf5d8456d748fa7895211cbee103c295f725db0c51d89d0185c44009d2478'
+    url "https://github.com/kayac/go-katsubushi/releases/download/v2.0.0/go-katsubushi_v2.0.0_linux_amd64.tar.gz"
+    sha256 'afd7f3e020bfd7949d70b44e549c81ded742f5333a069dd3cf03d659827e6bd0'
   end
   head 'https://github.com/kayac/go-katsubushi.git'
 
