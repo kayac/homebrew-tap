@@ -16,6 +16,10 @@ jobs:
       - name: Check out code
         uses: actions/checkout@v3
 
+      - name: setup brew path
+        run: echo "/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin" >> $GITHUB_PATH
+        if: ${{ matrix.os == 'ubuntu-latest' }}
+
       - name: test
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
