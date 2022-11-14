@@ -1,4 +1,4 @@
-class GoKatsubushi < Formula
+class Katsubushi < Formula
   desc 'ID generator server'
   version '2.0.0'
   homepage 'https://github.com/kayac/go-katsubushi'
