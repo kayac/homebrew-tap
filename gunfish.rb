@@ -1,13 +1,13 @@
 class Gunfish < Formula
-  version '0.4.2'
+  version '0.5.0'
   homepage 'https://github.com/kayac/gunfish'
   if OS.mac?
-    url "https://github.com/kayac/Gunfish/releases/download/v0.4.2/gunfish-v0.4.2-darwin-amd64.zip"
-    sha256 '700ae93f0e75aee7922b471278963c3685ccc00a96ce8bb8acee5a9977e58c6a'
+    url "https://github.com/kayac/Gunfish/releases/download/v0.5.0/Gunfish_v0.5.0_darwin_amd64.tar.gz"
+    sha256 'be72aba544e951ff16aa73f8ad8714d38333172b92f8d9597ac76f6245dbbe66'
   end
   if OS.linux?
-    url "https://github.com/kayac/Gunfish/releases/download/v0.4.2/gunfish-v0.4.2-linux-amd64.zip"
-    sha256 '4c5f2743d9ba751fd22f4bfb779eef52d0243923ba36072bf89528f5c717fc37'
+    url "https://github.com/kayac/Gunfish/releases/download/v0.5.0/Gunfish_v0.5.0_linux_amd64.tar.gz"
+    sha256 '3ba85fb17b8217f8071dc029e940be61ce0eb60d8ede0043c058b38457cd88be'
   end
   head 'https://github.com/kayac/gunfish.git'
 
