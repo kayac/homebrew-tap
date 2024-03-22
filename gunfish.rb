@@ -19,7 +19,6 @@ class Gunfish < Formula
     if build.head?
       system 'make', 'build'
     end
-    system 'mv gunfish-v*-*-amd64 gunfish'
     bin.install 'gunfish'
   end
 end
