@@ -1,13 +1,13 @@
 class S3ObjectRouter < Formula
-  version '0.0.7'
+  version '0.1.1'
   homepage 'https://github.com/kayac/s3-object-router'
   if OS.mac?
-    url "https://github.com/kayac/s3-object-router/releases/download/v0.0.7/s3-object-router_0.0.7_darwin_amd64.tar.gz"
-    sha256 '3994133ecafe8ba37fd67e4a499cd4ed255105d9e4a6fd17556c5fe5723caf24'
+    url "https://github.com/kayac/s3-object-router/releases/download/v0.1.1/s3-object-router_0.1.1_darwin_amd64.tar.gz"
+    sha256 'fe3f4bc7a44bbcb50c4c6679637020ae708506bcd1c91cab66812a55803232d1'
   end
   if OS.linux?
-    url "https://github.com/kayac/s3-object-router/releases/download/v0.0.7/s3-object-router_0.0.7_linux_amd64.tar.gz"
-    sha256 '13a1f07f2247afe9cf4b852a7afee065321de4345b0b35008b8883aa6dc2ea0a'
+    url "https://github.com/kayac/s3-object-router/releases/download/v0.1.1/s3-object-router_0.1.1_linux_amd64.tar.gz"
+    sha256 '1f2db90bff357f79ec962c1b7bfa242f1e6b472ac93dee4fd3208253b688deb3'
   end
   head 'https://github.com/kayac/s3-object-router.git'
 
