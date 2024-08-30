@@ -6,22 +6,22 @@ class Ecspresso < Formula
   on_macos do
     if Hardware::CPU.arm?
       url 'https://github.com/kayac/ecspresso/releases/download/v2.4.1/ecspresso_2.4.1_darwin_arm64.tar.gz'
-      sha256 'c5e13345d17e3b52ad737c54cc7195e007d19d88799c93d1c1861651ec74b778'
+      sha256 '5df074b836222c948f5d70ebcc9a4fbcc092eb78933c10dd984e7706e2682e0e'
     end
     if Hardware::CPU.intel?
       url 'https://github.com/kayac/ecspresso/releases/download/v2.4.1/ecspresso_2.4.1_darwin_amd64.tar.gz'
-      sha256 'd0ffa6a8c82cffa93031fb1386e766f36301e44a13a13e4f824452b43ae7dc71'
+      sha256 'b7ed16a9982019e71621e6e071a02606c33beb104ad369c5cd1d29e02c993209'
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url 'https://github.com/kayac/ecspresso/releases/download/v2.4.1/ecspresso_2.4.1_linux_arm64.tar.gz'
-      sha256 '9996217f24674edb106057a2f6fde97be7b88a7d16c58889fa38d9cf193b5585'
+      sha256 '5e3ab0f8ab8719f0ed3681767197932d39a8df33360663917c951493f2f4720e'
     end
     if Hardware::CPU.intel?
       url 'https://github.com/kayac/ecspresso/releases/download/v2.4.1/ecspresso_2.4.1_linux_amd64.tar.gz'
-      sha256 '07d743dc0b6d125439e6d3ddf89e0af1308bcb49601ac0b6be2fd88dca49f687'
+      sha256 '6bef01cb1733a6677e3cc897df2ed4ceac2e5c86e3bfa995f579154dbc0e08ea'
     end
   end
 
