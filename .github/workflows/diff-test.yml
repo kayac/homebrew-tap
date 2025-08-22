@@ -21,6 +21,7 @@ jobs:
       - name: test
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          HOMEBREW_DEVELOPER: "true"
           XARGS_OPT: ${{ (runner.os == 'Linux' && '-r') || (runner.os == 'macOS' && '') }}
         run: |
           git fetch origin master
