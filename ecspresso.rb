@@ -1,27 +1,27 @@
 class Ecspresso < Formula
   desc 'ecspresso is a deployment tool for Amazon ECS'
-  version '2.8.3'
+  version '2.8.4'
   homepage 'https://github.com/kayac/ecspresso'
 
   on_macos do
     if Hardware::CPU.arm?
-      url 'https://github.com/kayac/ecspresso/releases/download/v2.8.3/ecspresso_2.8.3_darwin_arm64.tar.gz'
-      sha256 '849fe537457ace45a9556a4b3cbd447051dc425a6e6aab65f06c081673ebe17d'
+      url 'https://github.com/kayac/ecspresso/releases/download/v2.8.4/ecspresso_2.8.4_darwin_arm64.tar.gz'
+      sha256 '22a126468511d5fb70709450aadbf8c85bda9df65eea1ffb265e2aae3d2a1da3'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/kayac/ecspresso/releases/download/v2.8.3/ecspresso_2.8.3_darwin_amd64.tar.gz'
-      sha256 '8cba50771d7f743958d325120e1ce5dca0e128b5cb143e9c63c7d2a4e2a5c40a'
+      url 'https://github.com/kayac/ecspresso/releases/download/v2.8.4/ecspresso_2.8.4_darwin_amd64.tar.gz'
+      sha256 '5d800a9ec71c65cab23820a4e5cd0b915e9d6d6918af8a085c7020b5df3bbae9'
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url 'https://github.com/kayac/ecspresso/releases/download/v2.8.3/ecspresso_2.8.3_linux_arm64.tar.gz'
-      sha256 'eaff105cdfff563fb1c4ee34b7754b1559214c8f185ffd533d78d814db068b0d'
+      url 'https://github.com/kayac/ecspresso/releases/download/v2.8.4/ecspresso_2.8.4_linux_arm64.tar.gz'
+      sha256 'ad3dc90b3db2451ad46813809fd812bd66e221220e656412367badae3d8149fb'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/kayac/ecspresso/releases/download/v2.8.3/ecspresso_2.8.3_linux_amd64.tar.gz'
-      sha256 '2bd4ec3364924fd974aaead5791a9fcad3f4d1b9a30bf01b0a4f042ebac79ab0'
+      url 'https://github.com/kayac/ecspresso/releases/download/v2.8.4/ecspresso_2.8.4_linux_amd64.tar.gz'
+      sha256 '652953ab0439f7837542f80fa03938b676574e8c85f477eb90df8e5b6d95ff68'
     end
   end
 
