@@ -1,27 +1,27 @@
 class Katsubushi < Formula
   desc 'ID generator server'
-  version '2.3.0'
+  version '2.3.1'
   homepage 'https://github.com/kayac/go-katsubushi'
 
   on_macos do
     if Hardware::CPU.arm?
-      url 'https://github.com/kayac/go-katsubushi/releases/download/v2.3.0/go-katsubushi_v2.3.0_darwin_arm64.tar.gz'
-      sha256 '696fc63918c268f475181f1fddd7891e2fd9f5998ad47ceb8eca740c59733dec'
+      url 'https://github.com/kayac/go-katsubushi/releases/download/v2.3.1/go-katsubushi_v2.3.1_darwin_arm64.tar.gz'
+      sha256 'a1c796a4037bd228371e6bc11c12f49704d3104a4618914f3f9036dc67e1a550'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/kayac/go-katsubushi/releases/download/v2.3.0/go-katsubushi_v2.3.0_darwin_amd64.tar.gz'
-      sha256 '8e71fcffe6fca3b3f8ab7d00381d7dda3d40f445fdcdd69dc5d919ad78d65b04'
+      url 'https://github.com/kayac/go-katsubushi/releases/download/v2.3.1/go-katsubushi_v2.3.1_darwin_amd64.tar.gz'
+      sha256 '312702717c7147d28a435cd47a804883f64d0ef63bb5b769dadc09a0c83ec85c'
     end
   end
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url 'https://github.com/kayac/go-katsubushi/releases/download/v2.3.0/go-katsubushi_v2.3.0_linux_arm64.tar.gz'
-      sha256 '40aa4d7967159856c7681bde7b43e12e4a247084ea0740d2b1e8554ff83bf40f'
+      url 'https://github.com/kayac/go-katsubushi/releases/download/v2.3.1/go-katsubushi_v2.3.1_linux_arm64.tar.gz'
+      sha256 'aff88643e12cbf3ae1a9d6ed2f3a15fc25fbe8d1e889f12ed7299a44f836fda2'
     end
     if Hardware::CPU.intel?
-      url 'https://github.com/kayac/go-katsubushi/releases/download/v2.3.0/go-katsubushi_v2.3.0_linux_amd64.tar.gz'
-      sha256 '09607230fe3d0ed31c5c45c0831eb8870c9f7412a2b47936e544cecb5750bd71'
+      url 'https://github.com/kayac/go-katsubushi/releases/download/v2.3.1/go-katsubushi_v2.3.1_linux_amd64.tar.gz'
+      sha256 '5cbb440887eb570f822d96ba82e89f8a33e8acae853362f7dcace02cf431dc94'
     end
   end
 
